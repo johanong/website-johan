@@ -1,0 +1,67 @@
+body {
+  background-image: url(animaatjes-natuur-37835.jpg);
+}
+h1 {
+  color: #ff0000;
+  background: #ffffff;
+  text-align: left;
+  font-family: "Comic Sans MS";
+  padding-left: 20px;
+  margin: 0px;
+}
+h2 {
+  color: #000000;
+}
+p {
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: #ff0000;
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px 0px 5px 0px;
+  margin-bottom: 5px;
+}
+div {
+  border-radius: 25px;
+  padding: 10px;
+  background-color: #0000ff;
+  margin-top: 20px;
+  color: #ffffff;
+  width: 90%;
+  transition: color, background, width 0.5s;
+}
+div:hover {
+  color:black;
+  background: white;
+  width: 50%;
+}
+.container {
+  background-color: #ffffff;
+  color: #000000
+}
+.alternative {
+  background-color: #ffffff;
+  color: #00ff00
+}
+@media screen and (max-width: 500px){
+  .column{
+    float: none;
+    width: 90%
+  }
+}
+img {
+  transition: border-radius, transform 1.5s easeOutBack;
+}
+img:hover {
+  transform: rotateX(45deg) rotateY(120deg);
+}
+#home {
+  width: 46px;
+  height: 44px;
+  background: url(img_navsprites.gif) 0 0;
+}
+#next {
+  width: 43px;
+  height: 44px;
+  background: url(img_navsprites.gif) -91px 0;
+}
